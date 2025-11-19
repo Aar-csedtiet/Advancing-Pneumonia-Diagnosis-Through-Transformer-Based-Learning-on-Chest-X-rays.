@@ -1,0 +1,50 @@
+Chest X-Ray Images (Pneumonia) Dataset
+
+This project uses the publicly available Chest X-Ray Images (Pneumonia) dataset introduced by Kermany et al. (2018). It is one of the most widely used datasets for benchmarking automated pneumonia-detection models.
+
+Dataset Overview
+
+Total Images: 5,863
+
+Format: JPEG
+
+Imaging View: Anterior–Posterior (AP)
+
+Population: Pediatric patients aged 1–5 years
+
+Source: Guangzhou Women and Children’s Medical Center, China
+
+The dataset is divided into three standard splits:
+
+Train
+
+Validation
+
+Test
+
+Each split contains two classes:
+
+Pneumonia
+
+Normal
+
+Data Quality & Labeling
+
+All radiographs were part of routine clinical examinations and underwent strict quality-control steps:
+
+Removal of low-quality or unreadable scans
+
+Independent grading by two expert physicians
+
+A third senior expert reviewed the evaluation subset to minimise inconsistencies and annotation bias
+
+This careful curation ensures high diagnostic reliability, making the dataset suitable for training and evaluating machine learning models for pneumonia detection.
+
+Kaggle Link
+
+Chest X-Ray Images (Pneumonia) Dataset:
+https://www.kaggle.com/datasets/paultimothymooney/chest-xray-pneumonia
+
+Citation
+
+Kermany, Daniel; Zhang, Kang; Goldbaum, Michael (2018). Labeled Optical Coherence Tomography (OCT) and Chest X-Ray Images for Classification. Mendeley Data, v2. DOI: 10.17632/rscbjbr9sj.2
